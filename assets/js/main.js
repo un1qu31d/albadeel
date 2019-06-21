@@ -17,4 +17,14 @@ $(document).ready(function() {
       slide: '.testimonials__testimonial'
     }
   });
+  $('.courses').categorization({
+    selector: {
+      slides: '.courses__courses',
+      slide: '.courses__course',
+      bullets: '.courses__bullets',
+      bullet: '.courses__bullet',
+      tags: '.courses__tags',
+      tag: '.courses__tag'
+    }
+  });
 });
