@@ -27,4 +27,11 @@ $(document).ready(function() {
       tag: '.courses__tags > li'
     }
   });
+  $('.course__slider').zooming({
+    selector: {
+      stage: '.course__current-slide',
+      slides: '.course__slides',
+      slide: '.course__slide'
+    }
+  });
 });
