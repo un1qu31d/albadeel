@@ -20,11 +20,11 @@ $(document).ready(function() {
   $('.courses').categorization({
     selector: {
       slides: '.courses__courses',
-      slide: '.courses__course',
+      slide: '.course',
       bullets: '.courses__bullets',
-      bullet: '.courses__bullet',
+      bullet: '.courses__bullets > li',
       tags: '.courses__tags',
-      tag: '.courses__tag'
+      tag: '.courses__tags > li'
     }
   });
 });
