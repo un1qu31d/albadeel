@@ -1123,7 +1123,12 @@ a {
         border-radius: 8px;
         padding: 16px;
         background-color: #282224;
+        text-align: center;
         font-size: 0.8rem;
+        line-height: 1.2rem;
+      }
+      .brief__item__description p {
+        overflow: hidden;
       }
 @media (min-width: 1024px) {
   .brief__description, .brief__content {
@@ -1131,6 +1136,9 @@ a {
   }
   .brief__items {
     grid-template-columns: repeat(5, 1fr);
+  }
+  .brief__item__description:not(:hover) p {
+    max-height: calc(1.2rem * 7);
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
